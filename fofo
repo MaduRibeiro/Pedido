@@ -1,0 +1,10 @@
+def pedido_namoro():
+    print("Oiiiii! Eu queria te dizer algo muito importante,meu gostoso...")
+    resposta = input("Você gostaria de passar o resto das nossas vidas ao meu lado? (sim/não): ")
+    if resposta.lower() == "sim":
+        print("KRL,sou a mulher mais feliz do mundo")
+    else:
+        print("Tudo bem, quem disse que vc tem opção?. VAI CASAR COMIGO SIM!")
+
+# Chamando a função para fazer o pedido de namoro
+pedido_namoro()
